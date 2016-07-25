@@ -1,0 +1,12 @@
+v:     u
+O:f1=qmax
+A:f2=(1-V*u^0.5-(1-V)*u)*qmax
+v:i
+v:D
+v:V
+o:f3=qmax*(-1+(1+4*D*(1-2*V*x*(pr/px)*u^0.5-v*(1-x)*(pr/px)^2*u)^0.5))/(2*D)
+v:qmax
+v:x
+v:pr
+v:px
+v:ps

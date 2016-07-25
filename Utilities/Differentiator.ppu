@@ -1,0 +1,17 @@
+<ScripterUtilities>
+<Utility name="Differentiator">
+<Path>Differentiator</Path>
+<Icon>Differentiator.png</Icon>
+        <Path>Differentiator.exe</Path>
+        <Argument name="Input Function File (PPO/TXT)">{ "R1@I1" }</Argument>
+        <Argument name="Output Derivative File (PPO/TXT)">{ "R1@O1" }</Argument>
+		<Argument name="Differentiation Type"
+						type="List">
+		<Item>txt2txt</Item>
+		<Item>txt2ppo</Item>
+		<Item>ppo2ppo</Item>
+		</Argument>
+        <Socket type="ProcessInput" name="Input Function File (*.PPO/*.TXT)" />
+        <Socket type="ProcessOutput" name="Output Derivative File (*.PPO/*.TXT)" />
+</Utility>
+</ScripterUtilities>
