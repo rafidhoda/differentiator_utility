@@ -1,15 +1,15 @@
-=== Differentiator Utility ===
-(c) PetroStreamz 2012 http://www.petrostreamz.com
+# Differentiator Utility
+(c) Petrostreamz 2012 http://www.petrostreamz.com
+Author: Rafid Hoda
 
 This utility takes an input file, either .ppo or txt and differentiates all the functions.
 
-== Installation ==
+**Installation**
 
 1. Copy Differentiator.exe Petrostreamz folder
 2. Copy the contents of the Utilities folder to Petrostreamz/Utilities
 
-
-== Usage ==
+**Usage**
 
 With this utility you can take .txt or .ppo files containing functions and differentiate and output them to another .txt or .ppo file.
 
@@ -32,7 +32,7 @@ V: Variable
 
 It does not matter if you use upper or lowercase.
 
-== SymPy ==
+**SymPy**
 Copyright (c) 2006, 2007, 2008, 2009, 2010, 2011 SymPy Development Team
 
 The libraries used to do the differentiation in this utility is developed by the SymPy Development Team.
