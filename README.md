@@ -17,18 +17,18 @@ For ppo files you can use the Optimizer to edit the files and it will work with 
 
 For txt files, this is the notation you must use to define the functions and variables:
 
-O: f1 = x + y
-v: x
-v: y
+- O: f1 = x + y
+- v: x
+- v: y
 
 O is for "Objective function", f1 is the name of the function and x + y is the actual function. x and y are variables you must explicitly define.
 
-Legend:
+*Legend:*
 
-O: Objective
-A: Auxiliary
-C: Constraint
-V: Variable
+- O: Objective
+- A: Auxiliary
+- C: Constraint
+- V: Variable
 
 It does not matter if you use upper or lowercase.
 
